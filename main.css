@@ -1,0 +1,24 @@
+	form {
+		background-color:#eee;
+		padding:10px;
+	}
+	div#map {
+		display:none;
+		position:absolute;
+		top:100px;
+		left:0;
+		width:100%;
+		height:calc( 100% - 100px );
+		x-index:100;
+	}
+	form#filter {
+		display:none;
+		position:absolute;
+                top:0;
+                left:0;
+                width:100%;
+		height:100px;
+		x-index:100;
+		padding:2px;
+	}
+
